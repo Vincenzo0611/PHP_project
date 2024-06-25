@@ -1,0 +1,36 @@
+.gallery {
+    display:inline-block;
+    margin: auto;
+    padding: 5px;
+}
+    
+.gallery img:hover {
+    border: 8px solid #008c45;
+}
+    
+.gallery img {
+    border: 8px solid #777;
+    width: 100%;
+    height: auto;
+}
+
+#gal{
+    padding: 10px 50px;
+    text-align: center;
+}
+    
+.pagination {
+    text-align: center;
+}
+  
+.pagination a {
+    display: inline-block;
+    margin: auto;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    font-size: 22px;  
+}
+.pagination a:hover {background-color: #008c45;}

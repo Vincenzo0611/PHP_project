@@ -1,0 +1,112 @@
+form{
+    width: 70%;
+    margin: auto;
+}
+
+legend{
+    color:#CD212A;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+fieldset{
+    border: 5px solid #008c45;
+}
+
+#fieldset_gender{
+    border: none;
+}
+
+label{
+    color:#CD212A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    display: block;
+}
+
+input[type=text], input[type=email], input[type=tel], select, textarea{
+    display: block;
+    width: 95%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.gender{
+    display: inline-block;
+}
+
+.gender_pad{
+    padding: 10px;
+}
+
+input, select, textarea{
+    margin: 8px;
+    margin-top: 1px;
+    padding: 3px;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.separator_rounded_kon1{
+    border-top: 4px solid #008c45;
+    border-radius: 2px;
+    width: 50%;
+    margin: auto;
+}
+
+.separator_rounded_kon2{
+    border-top: 4px solid #008c45;
+    border-radius: 2px;
+    width: 20%;
+    margin: auto;
+}
+
+#question {
+    width: 95%;
+    height: 150px;
+    padding: 3px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    outline: none;
+}
+
+input:focus, #question:focus, select:focus{
+    border: 3px solid #008c45;
+}
+
+.submit{
+    margin: auto;
+    background-color: #008c45;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color:#202020;
+    font-weight: bold;
+}
+
+.submit:focus{
+    border: none;
+}
+
+.submit:active{
+    transform: scale(1.1);
+}
+
+.submit:hover{
+    background-color: #007830;
+}
+
+#buttons{
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+
+
